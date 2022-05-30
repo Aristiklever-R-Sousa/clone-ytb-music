@@ -1,0 +1,32 @@
+.card {
+    width: 32%;
+
+    margin: 0 0 20px 1%;
+
+    justify-content: flex-start;
+
+    $measure: 45px;
+
+    .music-image {
+        width: $measure;
+        height: $measure;
+
+        border-radius: 8%;
+
+        margin-right: 4%;
+
+        img {
+            width: 100%;
+        }
+    }
+
+    div {
+        // display: table-cell;
+        // vertical-align: middle;
+        
+        div {
+            margin: 0 auto;
+            font-size: 0.65rem;
+        }
+    }
+}

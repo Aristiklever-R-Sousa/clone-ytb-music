@@ -1,0 +1,32 @@
+{
+  "foryou": [
+    {
+      "id": 1,
+      "musicName": "Blinding Lights",
+      "channel": "The Weekend",
+      "album": "Blinding Lights",
+      "urlImage": "/images/blind-lights.jpg"
+    },
+    {
+      "id": 2,
+      "musicName": "Thunder",
+      "channel": "Imagine Dragons",
+      "album": "Imagine Dragons",
+      "urlImage": "/images/blind-lights.jpg"
+    },
+    {
+      "id": 3,
+      "musicName": "Thunder",
+      "channel": "Imagine Dragons",
+      "album": "Imagine Dragons",
+      "urlImage": "/images/blind-lights.jpg"
+    },
+    {
+      "id": 4,
+      "musicName": "Thunder",
+      "channel": "Imagine Dragons",
+      "album": "Imagine Dragons",
+      "urlImage": "/images/blind-lights.jpg"
+    }
+  ]
+}

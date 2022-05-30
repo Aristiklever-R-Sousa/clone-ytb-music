@@ -28,7 +28,7 @@ function Navbar() {
             </nav>
             <div className='flex item-header'>
                 <FaChromecast />
-                <div>
+                <div className='round'>
                     <img src={profile} alt="profile" />
                 </div>
             </div>

@@ -1,0 +1,40 @@
+.content {
+    margin: 38px 10%;
+}
+
+.content-header {
+    width: 35%;
+    color: #fff;
+
+    margin-bottom: 50px;
+
+    .profile-img {
+        width: 54px;
+        height: 54px;
+
+        img {
+            width: 100%;
+        }
+    }
+
+    .header-infors {
+
+        span:nth-child(1) {
+            font-size: 0.6rem;
+            color: var(--disabled);
+            margin-bottom: -10px;
+            
+        }
+
+        span:nth-child(3) {
+            color: var(--enabled);
+            font-weight: 600;
+        }
+
+    }
+}
+
+.card-container {
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
