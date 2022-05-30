@@ -1,12 +1,13 @@
 import { FaChromecast } from 'react-icons/fa';
+import { ProfileInterface } from '../../pages/Home';
 
 import { AiOutlineSearch } from 'react-icons/ai'
 
 import logo from '../../assets/ytb_music_logo.svg';
-import profile from '../../assets/profile_photo.jpg';
 import './index.scss';
 
-function Navbar() {
+
+function Navbar({urlAvatar}: ProfileInterface) {
     return (
         <header className='flex'>
             <div className='flex item-header'>
@@ -29,7 +30,7 @@ function Navbar() {
             <div className='flex item-header'>
                 <FaChromecast />
                 <div className='round'>
-                    <img src={profile} alt="profile" />
+                    <img src={urlAvatar} alt="profile" />
                 </div>
             </div>
         </header>
