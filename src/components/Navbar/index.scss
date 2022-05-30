@@ -2,7 +2,7 @@ header {
     width: 100%;
 
     background-color: #030303;
-    color: #fff;
+    color: var(--enabled);
 
     padding: 16px 1.2%;
 }
@@ -15,6 +15,7 @@ ul {
     list-style: none;
 
     li {
+        cursor: pointer;
         font-size: 0.8rem;
         font-weight: 600;
 
@@ -29,29 +30,17 @@ ul {
     }
 }
 
-.flex {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.disabled {
-    color: #BDBDBD;
-}
-
-.enabled {
-    color: #fff;
-}
-
 .item-header {
     display: flex;
     width: 5%;
+    
+    * {
+        cursor: pointer;
+    }
 
     div {
         width: 26px;
         height: 26px;
-        border-radius: 50%;
-        overflow: hidden;
 
         img {
             width: 100%;

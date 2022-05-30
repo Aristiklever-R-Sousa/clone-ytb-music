@@ -1,12 +1,37 @@
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 
-  font-family: Roboto,Noto Naskh Arabic UI,Arial,sans-serif;
-  font-size: 24px;
+    font-family: Roboto,Noto Naskh Arabic UI,Arial,sans-serif;
+    font-size: 24px;
 }
 
+:root {
+    --enabled: #fff ;
+    --disabled: #BDBDBD;
+}
+// COLORS
+
 body {
-  background-color: #030303;
+    background-color: #030303;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.round {
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+.disabled {
+    color: var(--disabled);
+}
+
+.enabled {
+    color: var(--enabled);
 }
